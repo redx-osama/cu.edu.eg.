@@ -81,8 +81,8 @@
     <p></p>
 
     <form onsubmit="return loginUser()">
-      <input type="text" id="username" placeholder="اسم الطالب" required>
-      <input type="password" id="password" placeholder="الرقم القومي" required>
+      <input type="text" id="username" placeholder="اسم المستخدم" required>
+      <input type="password" id="password" placeholder="كلمة المرور" required>
       <button type="submit">دخول</button>
       <div class="error" id="error-msg">❌ اسم المستخدم أو كلمة المرور غير صحيحة</div>
     </form>
@@ -95,8 +95,8 @@
       let errorMsg = document.getElementById("error-msg");
 
       // بيانات الدخول الصحيحة
-      let correctUser = "هيام محمد سيف الدين عبدالله محمود";
-      let correctPass = "26601080104628";
+      let correctUser = "Hiyam Mohammed";
+      let correctPass = "29him87#";
 
       if(user === correctUser && pass === correctPass){
         window.location.href = "agriculture.html"; 
